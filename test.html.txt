@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Καλωσήρθατε στον κόσμο των λουλουδιών!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Αρχική</a></li>
+                <li><a href="#products">Προϊόντα</a></li>
+                <li><a href="#about">Σχετικά</a></li>
+                <li><a href="#contact">Επικοινωνία</a></li>
+            </ul>
+        </nav>
+        <h1>Λουλούδια για κάθε γωνιά του σπιτιού σας</h1>
+        <p>Κάντε το σπίτι σας πιο όμορφο με τη μαγεία των λουλουδιών μας.</p>
+    </header>
+    
+    <section id="products">
+        <h2>Τα προϊόντα μας</h2>
+        <div class="product">
+            <img src="flower1.jpg" alt="Λουλούδι 1">
+            <h3>Όνομα προϊόντος 1</h3>
+            <p>Περιγραφή προϊόντος 1.</p>
+        </div>
+        <div class="product">
+            <img src="flower2.jpg" alt="Λουλούδι 2">
+            <h3>Όνομα προϊόντος 2</h3>
+            <p>Περιγραφή προϊόντος 2.</p>
+        </div>
+        <!-- Επαναλάβετε το παραπάνω πρότυπο για περισσότερα προϊόντα -->
+    </section>
+    
+    <section id="about">
+        <h2>Σχετικά με εμάς</h2>
+        <p>Εδώ μπορείτε να γράψετε μια σύντομη περιγραφή για την εταιρεία σας και τη φιλοσοφία σας.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Επικοινωνία</h2>
+        <p>Εάν ενδιαφέρεστε για τα προϊόντα μας, μη διστάσετε να επικοινωνήσετε μαζί μας:</p>
+        <address>
+            Διεύθυνση: Παράδεισος 123, Πόλη
+            Τηλέφωνο: 123-4567890
+            Email: info@flowershop.com
+        </address>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Κατασκευή και σχεδίαση από [Το Όνομα Σας]</p>
+    </footer>
+  <style>
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font style */
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #345678;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the product section */
+#products {
+    padding: 2rem;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+/* Style the about section */
+#about {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Style the contact section */
+#contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    background-color: #345678;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Additional styling for the logo */
+.logo {
+    color: #00aaff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Add media queries for responsive design if needed */
+
+      </style>
+</body>
+</html>
